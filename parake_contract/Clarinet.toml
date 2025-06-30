@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.file_pinning]
+path = 'contracts/file_pinning.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.memory_with_expiry]
 path = 'contracts/memory_with_expiry.clar'
 clarity_version = 2
